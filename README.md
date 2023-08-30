@@ -14,14 +14,14 @@ Multi Use Bot Made in Serenity
 #[command]
 #[description("Your Description")]
 ```
-And add them to the command group in your file e.g
+Add them to the command group in your file e.g.
 ```
 #[group]
 #[commands(example1, example2)]
 ```
-### Catagorys
+### Categories
 - Create a new file in the ```commands``` folder ending with ```.rs```
-- Then Create a scaffold like this, You must have at least 1 command in the file/group because serenity is gay.
+- Then create a scaffold like this, You must have at least 1 command in the file/group because Serenity is stoopid.
 ```
 use serenity::framework::standard::{macros::{command, group}, Args, CommandResult};
 use serenity::model::prelude::Message;
